@@ -119,3 +119,12 @@
    width: 300px;
    height:330px;
   }
+  .image-1{
+    filter: invert(60%);
+    }
+    .image-2{
+      filter: invert(100%);
+      }
+      .image-3{
+        filter: invert(100%);
+      }

@@ -2,44 +2,56 @@ import React from "react";
 import "./Testimonial.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import profilePic1 from "../../img/boy.png";
-import profilePic2 from "../../img/boy2.jpg";
-import profilePic3 from "../../img/boy3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
+import profilePic2 from "../../assets/zomato.png";
+import profilePic3 from "../../assets/management.png";
+import profilePic4 from "../../assets/thirukural.png";
+import profilePic5 from "../../assets/gmail_clone.png";
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Testimonial = () => {
   const clients = [
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "!...Click the * And Swipe",
     },
     {
       img: profilePic2,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      
+      review : "Zomato-App FrontEnd Using ReactJs",
+      // githublink: URL("https://github.com/23121991/zomato-search-filter-app"),
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "CRUD Application Using  ReactJs",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Thirukural Search App Using Html,Javascript & Css",
     },
+    {
+      img: profilePic5,
+      review:
+        "gmail clone Using Reactjs,Nodejs & MongoDb",
+    },
+
   ];
+
+
+
+
 
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Clients always get </span>
         <span>Exceptional Work </span>
-        <span>from me...</span>
+        <span>& Projects</span>
+        
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
@@ -55,8 +67,21 @@ const Testimonial = () => {
             <SwiperSlide key={index}>
               <div className="testimonial">
                 <img src={client.img} alt="" />
-                <span>{client.review}</span>
-              </div>
+                <br/>
+                <span className="prj-rev">{client.review}</span>
+                <br/>
+                <p className="github">Github Source-code</p>
+                <a href="https://github.com/23121991?tab=repositories" className="git-desc" target="_blank" rel="noopener noreferrer">
+          All My Project Repositeries ...Click here..!
+        </a>
+        <br/>
+        <p className="netlify">Netlify Deploys</p>
+        <a href="https://app.netlify.com/teams/23121991/sites" className="net-desc" target="_blank" rel="noopener noreferrer" >
+          All My Project Deploys ...Click here..!
+        </a>
+        <p className="prj-rev">Click
+        <AiOutlineArrowDown/></p>
+        </div>
             </SwiperSlide>
           );
         })}

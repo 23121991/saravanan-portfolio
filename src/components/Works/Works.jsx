@@ -1,10 +1,12 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import allskill from "../../assets/allskill.webp";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import html from "../../assets/html.png";
+import css from "../../assets/css.png";
+import nodejs from "../../assets/nodejs.png";
+import react from "../../assets/react.png";
+import redux from "../../assets/redux.jpg";
+import javascript from "../../assets/javascript.png";
+import mongodb from "../../assets/mongodb.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
@@ -24,16 +26,12 @@ const Works = () => {
             My Works
           </span>
           <span>& Projects</span>
-          <spane>
-            Using REACTJS, MYSQL, MONGODB, HTML, JAVASCRIPT & CSS
+          <span className="skills">
+            is based on by
+            Using REACTJS, React-Redux,ContextApi, 
+            MYSQL, MONGODB, HTML, JAVASCRIPT & CSS
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
-          </spane>
+          </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
@@ -54,19 +52,28 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={javascript} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={html} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={allskill} alt="" />
+            <img src={css} alt="" />
+          </div>
+          <div className="w-secCircle">
+            <img src={react} alt="" />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={nodejs} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={redux} alt="" />
+          </div>
+          <div className="w-secCircle">
+            <img src={javascript} alt="" />
+          </div>
+          <div className="w-secCircle">
+            <img src={mongodb} alt="" />
           </div>
         </motion.div>
         {/* background Circles */}

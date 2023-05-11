@@ -38,9 +38,17 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="https://www.linkedin.com/in/r-saravanan-78ab051b8/" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/23121991">
+          <img src={Github} className="image-1" alt="" target="_blank" rel="noopener noreferrer"/>
+          </a>
+          
+          <a href="https://www.linkedin.com/in/r-saravanan-78ab051b8/" >
+          <img src={LinkedIn} className="image-2" alt="" target="_blank" rel="noopener noreferrer"/>
+          </a>
+          <a href="https://www.instagram.com/saravanan_be_r/" >
+          <img src={Instagram} className="image-3" alt="" color="red"  target="_blank" rel="noopener noreferrer" />
+          </a>
+          
         </div>
       </div>
       {/* right image side */}
@@ -63,18 +71,18 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="Full" text2="Stack Developer" />
         </motion.div>
 
         {/* animation */}
         <motion.div
           initial={{ left: "9rem", top: "18rem" }}
-          whileInView={{ left: "0rem" }}
+          whileInView={{ left: "3rem" }}
           transition={transition}
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Hire" text2="me" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

@@ -20,12 +20,12 @@ const Experience = () => {
       </div>
       <div className="achievement">
         <div className="circle" style={{color: darkMode?'var(--orange)':''}}>developer</div>
-        <span  style={{color: darkMode?'white':''}}>I am just a beginner in full stack developer </span>
+        <span  style={{color: darkMode?'white':''}}> I will design, develop, and maintain fully-fledged and functioning platforms with databases or servers </span>
         <span>Work</span>
       </div>
       <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>developer</div>
-        <span  style={{color: darkMode?'white':''}}>I have placed my career to reputed IT company</span>
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>Job</div>
+        <span  style={{color: darkMode?'white':''}}>I have deep passion for software development through years of practice,& many personel projects which honed my skills as a programmmer using technologies and coding languages. </span>
         <span>Work</span>
       </div>
     </div>

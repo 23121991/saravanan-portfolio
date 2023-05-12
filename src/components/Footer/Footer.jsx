@@ -19,10 +19,10 @@ const Footer = () => {
         <p ><FcCallback color="blue" size={"1rem"}/><span className="mb-num">8667811645</span></p>
         <p ><FcCallback color="blue" size={"1rem"}/><span className="mb-num">9865529834</span></p>
         <div className="f-icons">
-          <a href to="https://github.com/23121991"> 
+          <a href="https://github.com/23121991/"> 
           <BsGithub color="black" size={"3rem"} target="_blank" rel="noopener noreferrer"/>
           </a>
-          <a href="https://www.facebook.com/saravanan.t.sarvanan">
+          <a href="https://www.facebook.com/saravanan.t.sarvanan/">
           <AiOutlineFacebook color="rgb(5,20,100)" size={"3rem"} target="_blank" rel="noopener noreferrer"/>
           </a>
           <a href="https://www.instagram.com/saravanan_be_r/">

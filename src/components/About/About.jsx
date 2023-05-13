@@ -6,11 +6,26 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './saravananresume.pdf';
+import Resume from './saravanan resume.pdf';
+
 
 const About = () => {
 
-  
+  const links=[
+    {
+    
+      href : "https://github.com/23121991/node-hallbooking",
+    },
+    {
+      href: "https://github.com/23121991/node-hallbooking",
+    },
+    {
+      href : "https://github.com/23121991/node-hallbooking",
+    }
+    
+    
+      ]
+
   // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -36,8 +51,12 @@ const About = () => {
           <span>M.B.A</span> (Human Resources Management)
         </spane>
         <a href={Resume} download>
-          <button className="button s-button"> Download CV</button>
-        </a>
+          <button className="button s-button" target="_blank" rel="noopener noreferrer"> Download CV</button>
+        </a >
+        <a href='https://drive.google.com/file/d/1Y1jXnfbCSpI1T93P8-AmjNXeIMu4M50d/view?usp=share_link'
+        target="_blank" rel="noopener noreferrer">
+                    <button className="button s-button" >View Cv</button>
+                </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
@@ -71,7 +90,8 @@ const About = () => {
           initial={{ top: "19rem", left: "25rem" }}
           whileInView={{ left: "12rem" }}
           transition={transition}
-        >
+        > 
+             
           <Card
             emoji={Humble}
             heading={"DataBase"}
@@ -80,6 +100,10 @@ const About = () => {
             }
             color="rgba(252, 166, 31, 0.45)"
           />
+          {links.map((item,index) => ( <a href ={item.href}>{index[0]}
+
+      </a>
+      ))}
         </motion.div>
         <div
           className="blur s-blur2"

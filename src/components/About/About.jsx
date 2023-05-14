@@ -51,10 +51,10 @@ const About = () => {
           <span>M.B.A</span> (Human Resources Management)
         </spane>
         <a href={Resume} download>
-          <button className="button s-button" target="_blank" rel="noopener noreferrer"> Download CV</button>
+          <button className="button s-button" target="_Blank" rel="noopener noreferrer"> Download CV</button>
         </a >
         <a href='https://drive.google.com/file/d/1Y1jXnfbCSpI1T93P8-AmjNXeIMu4M50d/view?usp=share_link'
-        target="_blank" rel="noopener noreferrer">
+        target="_Blank" rel="noopener noreferrer">
                     <button className="button s-button" >View Cv</button>
                 </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>

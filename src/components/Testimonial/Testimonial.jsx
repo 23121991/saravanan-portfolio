@@ -71,12 +71,12 @@ const Testimonial = () => {
                 <span className="prj-rev">{client.review}</span>
                 <br/>
                 <p className="github">Github Source-code</p>
-                <a href="https://github.com/23121991?tab=repositories" className="git-desc" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/23121991?tab=repositories" className="git-desc" target="_Blank" rel="noopener noreferrer">
           All My Project Repositeries ...Click here..!
         </a>
         <br/>
         <p className="netlify">Netlify Deploys</p>
-        <a href="https://app.netlify.com/teams/23121991/sites" className="net-desc" target="_blank" rel="noopener noreferrer" >
+        <a href="https://app.netlify.com/teams/23121991/sites" className="net-desc" target="_Blank" rel="noopener noreferrer" >
           All My Project Deploys ...Click here..!
         </a>
         <p className="prj-rev">Click

@@ -31,6 +31,7 @@ const Portfolio = () => {
               href="https://astounding-cucurucho-d1fc19.netlify.app/"
               smooth={true}
               spy={true}
+              target="_Blank" rel="noopener noreferrer"
             >
               <img src={MernChat} alt="" />
               <p className="prj-title">MernChat-App</p>
@@ -43,6 +44,7 @@ const Portfolio = () => {
               className="source-code"
               smooth={true}
               spy={true}
+              target="_Blank" rel="noopener noreferrer"
             >
               Frontend source code
             </a>
@@ -52,6 +54,7 @@ const Portfolio = () => {
               className="source-code"
               smooth={true}
               spy={true}
+              target="_Blank" rel="noopener noreferrer"
             >
               Backend source code
             </a>
@@ -61,6 +64,7 @@ const Portfolio = () => {
               href="https://reliable-medovik-bb2dd4.netlify.app/"
               smooth={true}
               spy={true}
+              target="_Blank" rel="noopener noreferrer"
             >
               <img
                 src={Quotes}
@@ -78,6 +82,7 @@ const Portfolio = () => {
               className="source-code"
               smooth={true}
               spy={true}
+              target="_Blank" rel="noopener noreferrer"
             >
               Frontend source code
             </a>
@@ -87,6 +92,7 @@ const Portfolio = () => {
               className="source-code"
               smooth={true}
               spy={true}
+              target="_Blank" rel="noopener noreferrer"
             >
               Backend source code
             </a>
@@ -96,12 +102,14 @@ const Portfolio = () => {
               href="https://papaya-moonbeam-cd5f86.netlify.app/"
               smooth={true}
               spy={true}
+              target="_Blank" rel="noopener noreferrer"
             >
               <img
                 src={todolist}
                 alt=""
                 rel="noopener noreferrer"
                 target="_Blank"
+                
               />
               <p className="prj-title">TodoListApp</p>
               <p className="prj-desc">
@@ -113,6 +121,7 @@ const Portfolio = () => {
               className="source-code"
               smooth={true}
               spy={true}
+              target="_Blank" rel="noopener noreferrer"
             >
               Frontend source code
             </a>
@@ -122,6 +131,7 @@ const Portfolio = () => {
               className="source-code"
               smooth={true}
               spy={true}
+              target="_Blank" rel="noopener noreferrer"
             >
               Backend source code
             </a>
@@ -131,6 +141,7 @@ const Portfolio = () => {
               href="https://heartfelt-centaur-0f1a96.netlify.app/"
               smooth={true}
               spy={true}
+              target="_Blank" rel="noopener noreferrer"
             >
               <img
                 src={roombook}
@@ -149,6 +160,7 @@ const Portfolio = () => {
               className="source-code"
               smooth={true}
               spy={true}
+              target="_Blank" rel="noopener noreferrer"
             >
               Frontend source code
             </a>
@@ -158,6 +170,7 @@ const Portfolio = () => {
               className="source-code"
               smooth={true}
               spy={true}
+              target="_Blank" rel="noopener noreferrer"
             >
               Backend source code
             </a>

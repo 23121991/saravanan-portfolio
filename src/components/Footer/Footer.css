@@ -32,4 +32,8 @@
       transform: scale(.5);
     }
   }
+  .home-ft{
+    display:flex;
+    align-items: center;
+  }
   

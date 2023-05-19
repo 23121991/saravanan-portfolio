@@ -9,14 +9,21 @@ import profilePic2 from "../../assets/zomato.png";
 import profilePic3 from "../../assets/management.png";
 import profilePic4 from "../../assets/thirukural.png";
 import profilePic5 from "../../assets/gmail_clone.png";
+import profilePic6 from "../../img/boy3.jpg";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Testimonial = () => {
   const clients = [
+   
     {
       img: profilePic1,
       review:
         "!...Click the * And Swipe",
+    },
+    {
+      img: profilePic6,
+      review:
+        "SKILLS I have Html,Javascript,Css,Reactjs,Nodejs,React-Redux,MySql & MongoDb",
     },
     {
       img: profilePic2,
@@ -39,6 +46,7 @@ const Testimonial = () => {
       review:
         "gmail clone Using Reactjs,Nodejs & MongoDb",
     },
+
 
   ];
 

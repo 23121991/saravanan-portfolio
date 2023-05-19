@@ -38,15 +38,15 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/23121991">
-          <img src={Github} className="image-1" alt="" target="_Blank" rel="noopener noreferrer"/>
+          <a href="https://github.com/23121991" target="_Blank" rel="noopener noreferrer">
+          <img src={Github} className="image-1" alt="" />
           </a>
           
-          <a href="https://www.linkedin.com/in/r-saravanan-78ab051b8/" >
-          <img src={LinkedIn} className="image-2" alt="" target="_Blank" rel="noopener noreferrer"/>
+          <a href="https://www.linkedin.com/in/r-saravanan-78ab051b8/" target="_Blank" rel="noopener noreferrer">
+          <img src={LinkedIn} className="image-2" alt="" />
           </a>
-          <a href="https://www.instagram.com/saravanan_be_r/" >
-          <img src={Instagram} className="image-3" alt="" color="red"  target="_Blank" rel="noopener noreferrer" />
+          <a href="https://www.instagram.com/saravanan_be_r/" target="_Blank" rel="noopener noreferrer">
+          <img src={Instagram} className="image-3" alt="" color="red"  />
           </a>
           
         </div>

@@ -43,6 +43,7 @@
     gap: 0rem;
   }
   .i-icons > * {
+    margin-left: 5px;
     transform: scale(0.5);
   }
   .i-icons > *:hover {

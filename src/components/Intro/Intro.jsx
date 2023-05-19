@@ -9,7 +9,6 @@ import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from 'framer-motion';
 import { Link } from "react-scroll";
@@ -44,9 +43,6 @@ const Intro = () => {
           
           <a href="https://www.linkedin.com/in/r-saravanan-78ab051b8/" target="_Blank" rel="noopener noreferrer">
           <img src={LinkedIn} className="image-2" alt="" />
-          </a>
-          <a href="https://www.instagram.com/saravanan_be_r/" target="_Blank" rel="noopener noreferrer">
-          <img src={Instagram} className="image-3" alt="" color="red"  />
           </a>
           
         </div>

@@ -6,6 +6,7 @@ import Quotes from "../../img/quotes.png";
 import todolist from "../../img/todolist.png";
 import roombook from "../../assets/roombookapp.png";
 import MernChat from "../../assets/mernchat.png";
+import gmailclone from "../../assets/gmail_clone.png";
 import { themeContext } from "../../Context";
 
 const Portfolio = () => {
@@ -136,6 +137,7 @@ const Portfolio = () => {
               Backend source code
             </a>
           </SwiperSlide>
+          <br/>
           <SwiperSlide>
             <a
               href="https://heartfelt-centaur-0f1a96.netlify.app/"
@@ -151,8 +153,7 @@ const Portfolio = () => {
               />
               <p className="prj-title">Room-Booking-App</p>
               <p className="prj-desc">
-                Using FrontEnd Reactjs, BackEnd Nodejs &
-                MongoDb(Jwt,ContextApi,Cookies)
+                Using FrontEnd Reactjs, BackEnd Nodejs & MongoDb(Jwt,ContextApi,Cookies)
               </p>
             </a>
             <a
@@ -174,6 +175,47 @@ const Portfolio = () => {
             >
               Backend source code
             </a>
+            
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href="https://regal-liger-dce38b.netlify.app/"
+              smooth={true}
+              spy={true}
+              target="_Blank" rel="noopener noreferrer"
+            >
+              <img
+                src={gmailclone}
+                alt=""
+                rel="noopener noreferrer"
+                target="_Blank"
+              />
+              <p className="prj-title">Gmail-Clone-Ui</p>
+              <p className="prj-desc">
+                Using FrontEnd Reactjs, BackEnd Nodejs &
+                MongoDb(with-Authentication)
+              </p>
+            </a>
+            <a
+              href="https://github.com/23121991/Gmailclone1"
+              className="source-code"
+              smooth={true}
+              spy={true}
+              target="_Blank" rel="noopener noreferrer"
+            >
+              Frontend source code
+            </a>
+            <br />
+            <a
+              href="https://github.com/23121991/gmailback"
+              className="source-code"
+              smooth={true}
+              spy={true}
+              target="_Blank" rel="noopener noreferrer"
+            >
+              Backend source code
+            </a>
+            
           </SwiperSlide>
         </Swiper>
         {/* <div>

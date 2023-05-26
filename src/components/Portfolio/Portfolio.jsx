@@ -7,6 +7,7 @@ import todolist from "../../img/todolist.png";
 import roombook from "../../assets/roombookapp.png";
 import MernChat from "../../assets/mernchat.png";
 import gmailclone from "../../assets/gmail_clone.png";
+import CRUD from "../../assets/crud.png";
 import { themeContext } from "../../Context";
 
 const Portfolio = () => {
@@ -208,6 +209,46 @@ const Portfolio = () => {
             <br />
             <a
               href="https://github.com/23121991/gmailback"
+              className="source-code"
+              smooth={true}
+              spy={true}
+              target="_Blank" rel="noopener noreferrer"
+            >
+              Backend source code
+            </a>
+            
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href="https://main--ubiquitous-manatee-40b65d.netlify.app/"
+              smooth={true}
+              spy={true}
+              target="_Blank" rel="noopener noreferrer"
+            >
+              <img
+                src={CRUD}
+                alt=""
+                rel="noopener noreferrer"
+                target="_Blank"
+              />
+              <p className="prj-title">CRUD-Operation</p>
+              <p className="prj-desc">
+                Using FrontEnd Reactjs, BackEnd Nodejs &
+                MongoDb
+              </p>
+            </a>
+            <a
+              href="https://github.com/23121991/employee-crud-fnd"
+              className="source-code"
+              smooth={true}
+              spy={true}
+              target="_Blank" rel="noopener noreferrer"
+            >
+              Frontend source code
+            </a>
+            <br />
+            <a
+              href="https://github.com/23121991/employees-crud-bnd"
               className="source-code"
               smooth={true}
               spy={true}

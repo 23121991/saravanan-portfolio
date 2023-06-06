@@ -4,10 +4,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Quotes from "../../img/quotes.png";
 import todolist from "../../img/todolist.png";
-import roombook from "../../assets/roombookapp.png";
 import MernChat from "../../assets/mernchat.png";
 import gmailclone from "../../assets/gmail_clone.png";
-import CRUD from "../../assets/crud.png";
+import CRUD from "../../assets/cruduser.png";
 import { themeContext } from "../../Context";
 
 const Portfolio = () => {
@@ -60,6 +59,46 @@ const Portfolio = () => {
             >
               Backend source code
             </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a
+              href="https://main--euphonious-yeot-5713ac.netlify.app/"
+              smooth={true}
+              spy={true}
+              target="_Blank" rel="noopener noreferrer"
+            >
+              <img
+                src={CRUD}
+                alt=""
+                rel="noopener noreferrer"
+                target="_Blank"
+              />
+              <p className="prj-title">CRUD-Operation</p>
+              <p className="prj-desc">
+                Using FrontEnd Reactjs, BackEnd Nodejs &
+                MongoDb
+              </p>
+            </a>
+            <a
+              href="https://github.com/23121991/usercrud-fnd"
+              className="source-code"
+              smooth={true}
+              spy={true}
+              target="_Blank" rel="noopener noreferrer"
+            >
+              Frontend source code
+            </a>
+            <br />
+            <a
+              href="https://github.com/23121991/usercrud-backend"
+              className="source-code"
+              smooth={true}
+              spy={true}
+              target="_Blank" rel="noopener noreferrer"
+            >
+              Backend source code
+            </a>
+            
           </SwiperSlide>
           <SwiperSlide>
             <a
@@ -141,45 +180,6 @@ const Portfolio = () => {
           <br/>
           <SwiperSlide>
             <a
-              href="https://heartfelt-centaur-0f1a96.netlify.app/"
-              smooth={true}
-              spy={true}
-              target="_Blank" rel="noopener noreferrer"
-            >
-              <img
-                src={roombook}
-                alt=""
-                rel="noopener noreferrer"
-                target="_Blank"
-              />
-              <p className="prj-title">Room-Booking-App</p>
-              <p className="prj-desc">
-                Using FrontEnd Reactjs, BackEnd Nodejs & MongoDb(Jwt,ContextApi,Cookies)
-              </p>
-            </a>
-            <a
-              href="https://github.com/23121991/Room-BookingAPP-fnd"
-              className="source-code"
-              smooth={true}
-              spy={true}
-              target="_Blank" rel="noopener noreferrer"
-            >
-              Frontend source code
-            </a>
-            <br />
-            <a
-              href="https://github.com/23121991/Room-BookingAPP-api"
-              className="source-code"
-              smooth={true}
-              spy={true}
-              target="_Blank" rel="noopener noreferrer"
-            >
-              Backend source code
-            </a>
-            
-          </SwiperSlide>
-          <SwiperSlide>
-            <a
               href="https://regal-liger-dce38b.netlify.app/"
               smooth={true}
               spy={true}
@@ -218,56 +218,8 @@ const Portfolio = () => {
             </a>
             
           </SwiperSlide>
-          <SwiperSlide>
-            <a
-              href="https://main--ubiquitous-manatee-40b65d.netlify.app/"
-              smooth={true}
-              spy={true}
-              target="_Blank" rel="noopener noreferrer"
-            >
-              <img
-                src={CRUD}
-                alt=""
-                rel="noopener noreferrer"
-                target="_Blank"
-              />
-              <p className="prj-title">CRUD-Operation</p>
-              <p className="prj-desc">
-                Using FrontEnd Reactjs, BackEnd Nodejs &
-                MongoDb
-              </p>
-            </a>
-            <a
-              href="https://github.com/23121991/employee-crud-fnd"
-              className="source-code"
-              smooth={true}
-              spy={true}
-              target="_Blank" rel="noopener noreferrer"
-            >
-              Frontend source code
-            </a>
-            <br />
-            <a
-              href="https://github.com/23121991/employees-crud-bnd"
-              className="source-code"
-              smooth={true}
-              spy={true}
-              target="_Blank" rel="noopener noreferrer"
-            >
-              Backend source code
-            </a>
-            
-          </SwiperSlide>
+         
         </Swiper>
-        {/* <div>
-      <SwiperSlide>
-        <a href="shttps://astounding-moonbeam-859654.netlify.app//" smooth={true} spy={true}>
-          <img src={roombook} alt="" />
-          <p>Simple Api Search-App</p>
-          <p>Using Html, Javascript & Css</p>
-          </a>
-        </SwiperSlide>
-        </div> */}
       </>
     </div>
   );

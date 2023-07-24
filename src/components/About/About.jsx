@@ -50,7 +50,7 @@ const About = () => {
           <br />
           <span>M.B.A</span> (Human Resources Management)
         </spane>
-        <a href='https://drive.google.com/file/d/1Y1jXnfbCSpI1T93P8-AmjNXeIMu4M50d/view?usp=share_link'
+        <a href='https://drive.google.com/file/d/1n6TjAtiQGhDH1gMtA4OOXwDaKp8Ct8hZ/view?usp=drive_link'
         target="_Blank" rel="noopener noreferrer">
                     <button className="button s-button" >View Cv</button>
                 </a>

@@ -11,20 +11,20 @@ import { motion } from "framer-motion";
 
 const About = () => {
 
-  const links=[
+  const links = [
     {
-    
-      href : "https://github.com/23121991/node-hallbooking",
+
+      href: "https://github.com/23121991/node-hallbooking",
     },
     {
       href: "https://github.com/23121991/node-hallbooking",
     },
     {
-      href : "https://github.com/23121991/node-hallbooking",
+      href: "https://github.com/23121991/node-hallbooking",
     }
-    
-    
-      ]
+
+
+  ]
 
   // context
   const theme = useContext(themeContext);
@@ -43,17 +43,17 @@ const About = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>
-        Educational</span>
+          Educational</span>
         <span>Qualifications</span>
         <spane>
-         <span>B.E</span> (Electrical & Electronics Engineering)
+          <span>B.E</span> (Electrical & Electronics Engineering)
           <br />
           <span>M.B.A</span> (Human Resources Management)
         </spane>
         <a href='https://drive.google.com/file/d/1n6TjAtiQGhDH1gMtA4OOXwDaKp8Ct8hZ/view?usp=drive_link'
-        target="_Blank" rel="noopener noreferrer">
-                    <button className="button s-button" >View Cv</button>
-                </a>
+          target="_Blank" rel="noopener noreferrer">
+          <button className="button s-button" >View Cv</button>
+        </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
@@ -87,8 +87,8 @@ const About = () => {
           initial={{ top: "19rem", left: "25rem" }}
           whileInView={{ left: "12rem" }}
           transition={transition}
-        > 
-             
+        >
+
           <Card
             emoji={Humble}
             heading={"DataBase"}
@@ -97,10 +97,10 @@ const About = () => {
             }
             color="rgba(252, 166, 31, 0.45)"
           />
-          {links.map((item,index) => ( <a href ={item.href}>{index[0]}
+          {links.map((item, index) => (<a href={item.href}>{index[0]}
 
-      </a>
-      ))}
+          </a>
+          ))}
         </motion.div>
         <div
           className="blur s-blur2"

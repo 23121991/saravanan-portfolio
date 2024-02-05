@@ -41,7 +41,7 @@ const Intro = () => {
           <img src={Github} className="image-1" alt="" />
           </a>
           
-          <a href="https://www.linkedin.com/in/r-saravanan-78ab051b8/" target="_Blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/saravanan-r-7a1aa02b2/" target="_Blank" rel="noopener noreferrer">
           <img src={LinkedIn} className="image-2" alt="" />
           </a>
           
